@@ -19,7 +19,11 @@ public class RectangleColore extends Rectangle {
     if(result){
       if(other instanceof RectangleColore){
         RectangleColore patrick = (RectangleColore) other;
-        result = patrick.couleur.equals(couleur);
+        if(patrick.couleur != null){
+          result = patrick.couleur.equals(couleur);
+        }else{
+          result = (patrick.couleur == couleur);
+        }
       }else{
         result = false;
       }

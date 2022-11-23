@@ -1,5 +1,7 @@
+import exo1.ToStringEq;
+
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    ToStringEq.main(args);
   }
 }

@@ -1,6 +1,6 @@
 package exo1;
 
-class ToStringEq {
+public class ToStringEq {
   public static void main(String[] args) {
     System.out.println("Test 1 :");
     Rectangle rect = new Rectangle(12.5, 4.0);
